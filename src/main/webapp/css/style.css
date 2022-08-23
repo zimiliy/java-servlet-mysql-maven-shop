@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+/*ヘッダー・フッター共通*/
+.f_h_color{
+    background-color: rgb(103, 201, 145);
+    height: 100px;
+}
+
+/*ヘッダー*/
+.GM{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    display:flex;
+}
+.GM img{
+    width: 100px;
+    height: 100px;
+}
+
+/*フッター*/
+.copyright {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}  
+
+
+/* addItemとaddItemOKとeditItemとeditItemOKのbody*/
+.addItem_body{
+    margin: 0;
+}
+
+
+/*addItemとeditItem*/
+.addI_h1{
+    color: rgb(58, 104, 78);
+    text-align: center;
+    margin-top: 100px;
+    font-family: "游ゴシック";
+    font-size: 25px;
+}
+.addI_form{
+    width: 100%;
+   margin:0 auto;
+   border: 1px solid #9c9c9c;
+   padding: 50px;
+   box-sizing: border-box;
+}
+.addI_item{
+    margin-bottom: 20px;
+}
+
+.label_left{
+    display: inline-block;
+    width:25%;
+    border-left: solid 5px rgb(85, 223, 145);
+    padding-left: 15px;
+    vertical-align:top;
+}
+
+.addI_form input[type="text"]{
+     padding: 10px;
+     width: 98%;
+}
+ .addI_form textarea{
+    padding: 10px;
+    height: 100px;
+    font-size: 14px;
+    width: 98%;
+}
+.addI_form select{
+    height: 35px;
+    width: 65%;
+}
+.addI_button{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.747);
+    border: 2px solid rgb(96, 179, 147);
+    border-radius: 0;
+    background: rgb(160, 179, 168);
+    
+}
+.addI_button:hover{
+    color:rgb(0, 66, 31);
+    background: rgb(96, 179, 147);
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*addItemOKとeditItemOKとdeleteItemOK*/
+.addIOK_h1{
+    color: rgb(58, 104, 78);
+    text-align: center;
+    margin-top: 20px;
+    font-family: "游ゴシック";
+    font-size: 20px;
+}
+.addIOK_img{
+    text-align: center;
+}
+.addIOK_img img{
+    text-align: center;
+}
+.addIOK_p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.addIOK_a{
+    text-align: center;
+}
+.addIOK_a a{
+    font-family: sans-serif;
+    margin: 10px;
+}
+.addIOK_a a:link{
+    color: rgb(58, 104, 78);
+    text-decoration: none;
+}
+.addIOK_a a:visited{
+    color: rgb(58, 104, 78);
+    text-decoration: none;
+}
+.addIOK_a a:hover{
+    color: rgb(197, 111, 197);
+    text-decoration: none;
+}
+.addIOK_a a:active{
+    color: rgb(197, 111, 197);
+    text-decoration: none;
+}
+
+
+/*deleteItemOKのimg*/
+.deleteIOK_img{
+    text-align: center;
+}
+.deleteIOK_img img{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*adminsearch*/
+.adminSearch_item{
+	margin-bottom: 20px;
+}
+.adminS_form{
+   width: 100%;
+   margin:0 auto;
+   padding: 50px;
+   box-sizing: border-box;
+   text-align: center;
+}
+.adminS_p{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/*adminResult*/
+.adminR_item{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed rgb(22, 95, 56);
+    padding: 20px 50px;
+}
+/*.adminR_img{
+    margin-right: 16px;
+    padding-left: 16px;
+}*/
+.adminR_img img{
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+}
+.adminR_text{
+    flex: 0 0 336px;
+    margin-top: 100px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: "游ゴシック";
+}
+.adminR_a{
+    text-align: center;
+}
+.adminR_a a{
+    font-family: "游ゴシック";
+    font-weight: 900;
+}
+.adminR_a a:link{
+    color: rgb(41, 73, 55);
+    text-decoration: none;
+}
+.adminR_a a:visited{
+    color: rgb(41, 73, 55);
+    text-decoration: none;
+}
+.adminR_a a:hover{
+    color: rgb(197, 111, 197);
+    text-decoration: none;
+}
+.adminR_a a:active{
+    color: rgb(197, 111, 197);
+    text-decoration: none;
+}
+
+.adminLink{
+	margin:35px 5px 0 auto;
+	text-align: center;
+}
+
+.as_footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width:100%;
+}
+
+@media(max-width: 767px){
+.addI_form{
+   padding: 20px;
+}
+
+.label_left{
+    width:auto;
+}
+
+.addI_form input[type="text"]{
+     width: 92%;
+}
+
+ .addI_form textarea{
+    width: 92%;
+}
+
+.editI_footer{
+	margin:0 0 auto 0;
+}
+
+
+.adminR_block{
+	width:100%;
+}
+.adminR_item{
+	display:block;
+}
+
+.adminR_text{
+	margin-top:5px;
+	margin-left:0;
+}
+	
+}

@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* End Global rules */
+
+/* Start body rules */
+body {
+    background-image: linear-gradient(-225deg, #ffd59fce 0%, #fdff92d3 100%);
+background-image: linear-gradient(to top, #fdff92d3 0%, #ffd59fce 100%);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+
+    font-family: 'Vibur', cursive;
+/*   the main font */
+    font-family: 'Abel', sans-serif;
+opacity: .95;
+/* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+}
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||*/
+/* //////////////////////////////////////////// */
+
+
+
+
+/* End body rules */
+
+.yohaku{
+    height: 45px;
+}
+.logologo img{
+    width: 327px;
+    height: 120px;
+    margin-left: 35px;
+}
+/*フッター*/
+.copy {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}  
+
+
+
+/* Start form  attributes */
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #fdff92d3 50%, #ffd59fce 50%);
+}
+/* form Container */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+    margin: 0 auto;
+}
+
+/* the header form form */
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+/* Login title form form */
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+/*  A welcome message or an explanation of the login form */
+header p {letter-spacing: 0.05em;}
+
+/* ログアウト  */
+.logout p{
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 2%;
+    padding: 15px;
+    
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+.logout {
+    display: inline-block;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  
+    padding: 14px 20px 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+/*ログアウトしました*/
+.logout2 p{
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 2%;
+    padding: 15px;
+    
+    font-size: 10px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+.logout2 {
+    display: inline-block;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  
+    padding: 13px 20px 0 20px;
+    
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+/*TOPへ*/
+.index a{
+    width: 240px;
+    height: 50px;
+  
+    margin-top: 2%;
+    padding: 15px;
+    
+    font-size: 10px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+.index {
+    display: inline-block;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  
+    padding: 13px 20px 0 20px;
+    
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+.field-set{
+	text-align: center;
+}
+
+@media(max-width:767px){
+	.copy{
+		margin-left:18%;
+	}
+	}

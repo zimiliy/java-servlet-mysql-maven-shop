@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+/* Fonts Form Google Font ::- https://fonts.google.com/  -:: */
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+/* End Fonts */
+/* Start Global rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* End Global rules */
+
+/* Start body rules */
+body {
+    background-image: linear-gradient(-225deg, #ffd59fce 0%, #fdff92d3 100%);
+background-image: linear-gradient(to top, #fdff92d3 0%, #ffd59fce 100%);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+
+    font-family: 'Vibur', cursive;
+/*   the main font */
+    font-family: 'Abel', sans-serif;
+opacity: .95;
+/* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+}
+
+.body2{
+    background-image: linear-gradient(-225deg, #fdff92d3 0%, #ffd59fce 100%);
+    background-image: linear-gradient(to top, #ffd59fce 0%, #fdff92d3 100%);
+    background-attachment: fixed;
+      background-repeat: no-repeat;
+    
+        font-family: 'Vibur', cursive;
+    /*   the main font */
+        font-family: 'Abel', sans-serif;
+    opacity: .95;
+    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||*/
+/* //////////////////////////////////////////// */
+
+
+
+
+/* End body rules */
+
+.yohaku{
+    height: 45px;
+}
+
+
+.logologo img{
+    width: 327px;
+    height: 120px;
+    margin-left: 35px;
+}
+/*フッター*/
+.copy {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}  
+
+
+
+/* Start form  attributes */
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #fdff92d3 50%, #ffd59fce 50%);
+}
+/* form Container */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+      margin: 0 auto;
+}
+
+.form2{
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg,  #ffd59fce 50%, #fdff92d3 50%);
+}
+.form2 .con {
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+      margin: 0 auto;
+}
+/* the header form form */
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+/* Login title form form */
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+/*  A welcome message or an explanation of the login form */
+header p {
+    font-size: 15px;
+    color: #252537;
+}
+
+
+
+/* //////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+
+
+.input-item {
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+    width:45%;
+    height: 50px;
+    font-size:14px;
+    margin-top:3px;
+}
+
+
+
+/* Show/hide password Font Icon */
+#eye {
+    background: #fff;
+    color: #333;
+  
+    margin-top: 3px;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+  
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+    
+    cursor: pointer;
+    
+}
+
+/* inputs form  */
+input[class="form-input"]{
+    width: 65%;
+    height: 50px;
+  
+    margin-top: 3px;
+    padding: 15px;
+    
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+input[id="txt-input"] {width: 250px;}
+/* focus  */
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+.field-set{
+    text-align: center;
+    width:100%;
+}
+.log-in{
+    color: #252537;
+    font-size: 13px;
+    font-family: 'Abel', sans-serif;
+    background: white;
+    border:none;
+    margin: 15px 0;
+    padding: 15px 114px 15px 107px;
+    border-radius: 6px;
+    width:100%;
+}
+.log-in:hover{
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+.touroku-button{
+    color: #252537;
+    font-size: 13px;
+    font-family: 'Abel', sans-serif;
+    background: #ffa970;
+    border:none;
+    margin: 15px 0;
+    padding: 15px 114px 15px 107px;
+    border-radius: 6px;
+    width:100%;
+}
+.touroku-button:hover{
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+/* //////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+
+/* input[type="text"] {min-width: 250px;} */
+/* buttons  */
+/*button {
+    display: inline-block;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+/* Submits */
+.submits {
+    width: 48%;
+    /*display: inline-block;*/
+    float: left;
+    margin-left: 2%;
+}
+
+/*       Forgot Password button FAF3DD  */
+.frgt-pass {
+    background: transparent;
+    border:none
+}
+
+/*     Sign Up button  */
+.sign-up {background: #B8F2E6;}
+
+
+/* buttons hover */
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+/* buttons hover Animation */
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+.other{
+    display: flex;
+    width: 263.14px;
+    height: 86.81px;
+}
+
+.btn{
+    color: #252537;
+    font-size: 13px;
+    margin: 18.4px 0 18.4px 5.25px;
+    padding: 0 20px;
+}
+.btn:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+.submit{
+    color: #252537;
+    font-size: 13px;
+    margin: 18.4px 0 18.4px 5.25px;
+    padding: 0 20px;
+}
+.frgt-pass{
+    color: #252537;
+    font-size: 13px;
+    margin: 18.4px 0 18.4px 5.25px;
+    padding: 0 20px;
+}
+a{
+    background-color: rgb(241, 250, 124);
+    color: #252537;
+    font-size: 13px;
+    margin: 18.4px 0 18.4px 5.25px;
+    padding: 16px 20px 17px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+a:hover{
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+.aaa{
+    background-color: #ffa97080;
+    color: #252537;
+    font-size: 13px;
+    margin: 18.4px 0 18.4px 5.25px;
+    padding: 16px 20px 17px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.aaa:hover{
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+.taisyo{
+	display:flex;
+}
+
+@media(max-width:767px){
+	.body2{
+		width:100%;
+	}
+	.copy{
+		width:100%;
+	}
+	form{
+		width:100%;
+	}
+	.form2{
+		width:100%;
+	}
+	.input-item{
+		width:45%;
+	}
+	
+	input[class="form-input"]{
+		width:65%;
+	}
+	.field-set {
+    width: 100%;
+	}
+	.con{
+		width:100%;
+	}
+	#eye{
+		/*padding-left:50px;*/
+	}
+	.text{
+		font-size:12px;
+	}
+	
+	
+}
